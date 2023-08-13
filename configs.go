@@ -2913,7 +2913,7 @@ type SetMyShortDescriptionConfig struct {
 }
 
 func (config SetMyShortDescriptionConfig) method() string {
-	return "setMyDescription"
+	return "SetMyShortDescription"
 }
 
 func (config SetMyShortDescriptionConfig) params() (Params, error) {
